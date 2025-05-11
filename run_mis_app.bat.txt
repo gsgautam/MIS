@@ -1,0 +1,6 @@
+@echo off
+echo Starting Streamlit MIS App... Please wait.
+cd /d "C:\Users\sagar\OneDrive\Desktop\MIS_streamlit_app"
+echo Running Streamlit via Python...
+C:/Users/sagar/AppData/Local/Programs/Python/Python312/python.exe -m streamlit run streamlit_app.py
+pause

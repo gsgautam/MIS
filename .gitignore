@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+# Replace 'venv' with the actual name of your virtual environment folder if different
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Instance folder (if it contains local configurations or data)
+instance/
+
+# Secrets file (VERY IMPORTANT)
+.env
+secrets.toml # If you use Streamlit's secrets.toml locally
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Any local data files you don't want to commit
+# For example, if sample.txt is very large or specific to your machine:
+# sample.txt
