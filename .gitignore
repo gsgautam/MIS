@@ -32,11 +32,6 @@ share/python-wheels/
 MANIFEST
 
 # Instance folder (if it contains local configurations or data)
-# Files and folders inside 'instance/' that should NOT go to GitHub:
-instance/mis_database.db
-instance/config.py
-instance/lead_uploads/
-instance/__pycache__/
 
 # Secrets file (VERY IMPORTANT)
 .env
